@@ -8,3 +8,10 @@ end
     gem 'rake'
     gem 'thin'
     gem 'require_all'
+    
+     group :development do
+        gem 'shotgun'
+        gem 'pry'
+        gem 'tux'
+        gem 'sqlite3'
+    end
